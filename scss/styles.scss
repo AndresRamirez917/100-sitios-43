@@ -66,16 +66,23 @@ form {
     background: rgb(173, 76, 76);
     color: #fff;
     padding: 20px 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.767);
 }
 
 .button-2 {
     background: $secondary-color;
     color: #fff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.767);
+}
+
+.navbar ul li:hover ,
+.navbar ul li a:active {
+    color: violet;
 }
 
 //mainheader
 #mainheader {
-    background: $primary-color;
+    background: linear-gradient($primary-color, blue ) ;
     .navbar {
         margin-bottom: 2em;
         .logo {
@@ -118,7 +125,7 @@ form {
     }
 
     #showcase-form {
-
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.767);
         form {
             background: #fff;
             padding: 50px 50px 10px 50px;
@@ -126,7 +133,7 @@ form {
 
         .mainlogo {
             padding: 90px;
-            background: $secondary-color;
+            background: linear-gradient($secondary-color, $primary-color);
             margin-bottom: -4px;
             border-top-left-radius: 80px;
         }
@@ -135,7 +142,9 @@ form {
 
 //about
 #about {
-
+    background: linear-gradient(to right, #dddddd, #f7f7f7);
+    
+    
     h2 {
         margin: 2em 0;
         font-size: 3em;

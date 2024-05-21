@@ -58,15 +58,22 @@ form .button-2 {
   background: rgb(173, 76, 76);
   color: #fff;
   padding: 20px 30px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.767);
 }
 
 .button-2 {
   background: rgb(31, 31, 73);
   color: #fff;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.767);
+}
+
+.navbar ul li:hover,
+.navbar ul li a:active {
+  color: violet;
 }
 
 #mainheader {
-  background: rgb(0, 187, 255);
+  background: linear-gradient(rgb(0, 187, 255), blue);
 }
 #mainheader .navbar {
   margin-bottom: 2em;
@@ -103,17 +110,23 @@ form .button-2 {
   line-height: 30px;
   margin-bottom: 2em;
 }
+.showcase-container #showcase-form {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.767);
+}
 .showcase-container #showcase-form form {
   background: #fff;
   padding: 50px 50px 10px 50px;
 }
 .showcase-container #showcase-form .mainlogo {
   padding: 90px;
-  background: rgb(31, 31, 73);
+  background: linear-gradient(rgb(31, 31, 73), rgb(0, 187, 255));
   margin-bottom: -4px;
   border-top-left-radius: 80px;
 }
 
+#about {
+  background: linear-gradient(to right, #dddddd, #f7f7f7);
+}
 #about h2 {
   margin: 2em 0;
   font-size: 3em;
