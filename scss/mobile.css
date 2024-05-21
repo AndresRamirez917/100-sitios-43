@@ -27,11 +27,11 @@
   margin: 0 auto;
   margin-bottom: 1em;
 }
-#mainheader .showcase-container .showcase-form {
+#mainheader .showcase-container #showcase-form {
   margin: 0 auto;
   width: 400px;
 }
-#mainheader .showcase-container .showcase-form img {
+#mainheader .showcase-container #showcase-form img {
   width: 100%;
 }
 

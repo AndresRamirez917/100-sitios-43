@@ -103,11 +103,11 @@ form .button-2 {
   line-height: 30px;
   margin-bottom: 2em;
 }
-.showcase-container .showcase-form form {
+.showcase-container #showcase-form form {
   background: #fff;
   padding: 50px 50px 10px 50px;
 }
-.showcase-container .showcase-form .mainlogo {
+.showcase-container #showcase-form .mainlogo {
   padding: 90px;
   background: rgb(31, 31, 73);
   margin-bottom: -4px;
