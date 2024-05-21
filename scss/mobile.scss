@@ -42,7 +42,11 @@
 
         .showcase-form {
             margin: 0 auto;
-            width: 475px;
+            width: 400px;
+
+            img {
+                width: 100%;
+            }
         }
     }
 }

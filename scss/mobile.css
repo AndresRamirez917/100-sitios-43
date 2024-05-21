@@ -29,7 +29,10 @@
 }
 #mainheader .showcase-container .showcase-form {
   margin: 0 auto;
-  width: 475px;
+  width: 400px;
+}
+#mainheader .showcase-container .showcase-form img {
+  width: 100%;
 }
 
 #about .about-row {
