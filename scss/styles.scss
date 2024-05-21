@@ -69,10 +69,20 @@ form {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.767);
 }
 
+.button-1:hover {
+    background: rgb(167, 110, 110);
+    color: #fff;
+}
+
 .button-2 {
     background: $secondary-color;
     color: #fff;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.767);
+}
+
+.button-2:hover {
+    background: rgb(49, 49, 115);
+    color: #fff;
 }
 
 .navbar ul li:hover ,
